@@ -25,7 +25,7 @@ def id():
     pass_conter = 0
     w = False
     print("Stand opposite the camera.")
-    print("When you will ready, press 'q'")
+    print("When you will be ready, press 'q'")
     while (y != True):
         video_capture = cv2.VideoCapture(0)
         while True:
@@ -85,13 +85,13 @@ def id():
         else:
             print("You need to register.")
             reg()
-    print("Congratulate, you can pass!")
+    print("Congratulations, you can pass!")
 
 
 
 def reg():
     print("I need to add your face to data base. Stand opposite the camera.")
-    print("When you will ready, press 'q'")
+    print("When you will be ready, press 'q'")
 
     img = cv2.VideoCapture(0)
     while True:
